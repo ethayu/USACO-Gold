@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
@@ -20,7 +19,9 @@ public class tractor {
         }
         ArrayList<TreeSet<int[]>> cycles = new ArrayList<>();
         for (int[] i : bales) {
+            for (TreeSet<int[]> cycle : cycles) {
 
+            }
         }
     }
 
